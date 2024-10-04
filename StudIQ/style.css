@@ -1,0 +1,104 @@
+/* General Styles */
+:root {
+    --text-color--: #5482ff;
+    --text-color-blend--: #030558;
+    --back-up-color--: #000000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background: whitesmoke;
+    overflow: hidden;
+}
+
+/* Header Section */
+header .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+}
+
+.nama-brand img{
+    width: 75px;
+    height: auto;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a, .btn {
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    transition: 0.6s;
+}
+
+li a:hover, .btn:hover{
+    color: white;
+    background-color: var(--text-color--);
+}
+.active {
+    color: white;
+    background-color: var(--text-color--);
+}
+
+/* Main Section */
+main {
+    margin-top: 100px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h1 .highlight {
+    color: rgb(2, 124, 254);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Login Section */
+.login-form {
+    min-height: 100vh;
+}
+
+.blue {
+    min-height: 100vh;
+}
+
+.login-page {
+    align-items: center;
+}
+
+.nama-brand2 img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
