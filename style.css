@@ -83,6 +83,7 @@ p {
     margin-bottom: 30px;
 }
 
+/* Login Section */
 .login-form {
     min-height: 100vh;
 }
@@ -92,5 +93,12 @@ p {
 }
 
 .login-page {
+    align-items: center;
+}
+
+.nama-brand2 img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
