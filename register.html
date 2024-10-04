@@ -50,23 +50,46 @@
         <div class="col-md-6 d-flex justify-content-center align-items-center">
             <div class="login-box">
                 <form action="#">
-                    <h2 class="text-center fw-bold">Daftar</h2>
-                    <div class="form-group">
-                        <label for="nama">Nama pengguna</label>
-                        <input type="nama" class="form-control" id="nama" required>
-                        <small class="form-text text-danger">Harap masukkan nama Anda.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Alamat e-mail</label>
-                        <input type="email" class="form-control" id="email" required>
-                        <small class="form-text text-danger">E-mail tidak boleh kosong.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Kata sandi</label>
-                        <input type="password" class="form-control" id="password" minlength="8" required>
-                        <small class="form-text text-muted">Minimal 8 karakter.</small>
-                    </div>
-                    <a href="login.html" class="btn-primary btn rounded-pill">Daftar</a>
+                    <h2 class="text-center fw-bold">Daftar</h2>             
+
+        <!--input nama depan dan nama belakang -->
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nama Depan</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Maukkan Nama depan">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Nama Belakang</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Masukkan Nama Belakang">
+          </div>
+ 
+        <!-- EMAIL SUBMISSION -->
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Masukkan Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">@example.com</span>
+              </div>
+            </div>
+
+        <!-- PASSWORD -->
+        <label for="inputPassword" class="form-label">Password</label>
+        <input type="password" id="inputPassword5" class="form-control" placeholder="Masukkan Password">
+        <div id="passwordHelpBlock" class="form-text">
+            Kata sandi kamu harus terdiri dari 8-20 karakter, mengandung huruf dan angka, dan tidak boleh mengandung spasi, karakter khusus, atau emoji.
+          </div> <br>
+
+
+        <!--keterangan kelas-->
+        <label for="kelas">Kelas</label>
+          <select class="form-select form-select-sm" aria-label="Small select example">
+            <option selected>Pilih kelas kamu</option>
+            <option value="1">Kelas 1</option>
+            <option value="2">Kelas 2</option>
+            <option value="3">Kelas 3</option>
+          </select>
+                   <br> 
+          
+          <a href="login.html" class="btn-primary btn rounded-pill">Daftar</a>
                     
                     <!-- Link ke homepage -->
                     <div class="back-link">
